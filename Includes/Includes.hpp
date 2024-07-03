@@ -1,0 +1,41 @@
+#pragma once
+
+#include <netdb.h>
+#include <sys/socket.h>
+#include <cstdio>
+#include <algorithm>
+#include <cstring>
+#include <iostream>
+#include <cerrno>
+#include <errno.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <list>
+#include <sstream>
+#include <unistd.h>
+#include <dirent.h>
+#include <map>
+#include <fcntl.h>
+#include <vector>
+#include <fstream>
+#include <ctime>
+#include <exception>
+#include <string>
+#include <arpa/inet.h>
+#include <signal.h>
+#include <set>
+#include <limits>
+
+#include "../Includes/Data.hpp"
+#include "../Includes/Server.hpp"
+#include "../Includes/Client.hpp"
+#include "../Includes/Request.hpp"
+#include "../Includes/Response.hpp"
+#include "../Includes/CGI.hpp"
+
+#include "../conf/config.hpp"
+#include "../conf/ConfigServer.hpp"
+#include "../conf/HelperFunc.hpp"
+#include "../conf/ReaderConf.hpp"
+#include "../conf/StructData.hpp"
+#include "../conf/webserv.hpp"
